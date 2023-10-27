@@ -14,6 +14,16 @@ body{
     background-color: darkcyan;
 }
 
+h1{
+    font-size: 75px;
+    font-weight: bolder;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    color: darkcyan;
+}
+h2{
+    color:darkmagenta;
+}
 
 .container{
     display: flex;
@@ -41,6 +51,7 @@ body{
     margin:0;
     opacity: 0;
     
+    
 }
 .panel.active{
     flex: 5;
@@ -51,6 +62,9 @@ body{
     transition: opacity 0.3s ease-in 0.4s;
     left: 110px;
     font-size: 50px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    color:black;
   
 }
 .card-one {
